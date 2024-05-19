@@ -1,0 +1,66 @@
+<!--
+作者：天视网 - 天视网导航
+github主页：https://fdmus.github.io/tsw/
+日期：2022-09-19
+版权所有，请勿删除！
+-->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>天视网 - 天视网提供技术支持</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body style="position: static;">
+	<div id="psdp-wrap">
+		<div class="psdp-cont">
+			<span class="psdp-title"><font color="#ff0000"><b>网站已开启密码保护，请输入密码访问</b></font></span>
+				<div class="psdp-input">
+					<input class="psdp-btn" type="submit" id="chkBtn" value="确定" onclick="chkBtn()">
+					<input class="psdp-pwd" type="password" name="accessPassword" id="password" placeholder="🔑请输入密码..." >
+					<div class="cfb"></div>
+					<span class="padp-hint" id="notice_accessPassword" style="display:none">请输入密码访问！</span>
+				</div>
+				<br><br>
+		    <p class="psdp-text"><font color="#fff">📧mail：tswdh@foxmail.com</font></p>
+
+<div class="text-style-1">
+<p style="text-align: center;">
+	<br>
+Copyright © 2024 Sky™. All Rights Reserved
+</div>
+<style>
+@keyframes text-style-1 {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -100% 0;
+  }
+}
+.text-style-1 {
+  font-size: 13px;
+  background-image: linear-gradient(to right, red , yellow, green, yellow, red);
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-size: 200% 100%;
+  color: transparent;
+  animation: text-style-1 2s infinite linear;
+}
+</style>
+			
+		</div>
+	</div>
+</body>
+<script>
+        document.getElementById('chkBtn').addEventListener('click',function (){
+		var password = document.getElementById("password").value;
+		if(password == '666'){//xxx
+			window.location.href = 'https://www.baidu.com';//www
+		}else{
+			alert('抱歉，密码错误！')
+		}
+	})
+    </script>
+</html>
